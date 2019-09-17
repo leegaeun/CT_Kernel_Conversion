@@ -1,6 +1,6 @@
-# CT_Kernel_Conversion
+# [CT_Kernel_Conversion](https://doi.org/10.1148/radiol.2019181960)
 <br/>
-Source codes for performing [Image-based Kernel Conversion](https://doi.org/10.1148/radiol.2019181960).<br/>
+Source codes for performing image-based kernel conversion.<br/>
 Data preparation, learning, and conversion are all coded in python. The NVCaffe library and DIGITS, which provides UI for the learning process, were used for the learning. These are provided by nvidia. <br/>
 <br/>
 
