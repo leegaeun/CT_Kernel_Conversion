@@ -59,3 +59,5 @@ The following images are examples of B10f to B70f conversion in test1. From left
 There is a learned weight of the conversion from B10f to B70f in the *weight* directory,<br/>
 In the *data/noncontrast* directory, there are test2 example image in addition to test1. You can convert it yourself.<br/>
 <br/>
+Also, weights and images for conversion from B30f to B50f were added. (v1.1)
+<br/>
