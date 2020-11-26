@@ -133,7 +133,7 @@ train_image_db.close()
 train_label_db.close()
 
 # save mean
-mean_image = (image_sum / image_count).astype('uint16')
+mean_image = (image_sum / image_count).astype('int16')
 _save_mean(mean_image, "train_image_mean_"+KERNEL_from+"to"+KERNEL_to+".png")
 _save_mean(mean_image, "train_image_mean_"+KERNEL_from+"to"+KERNEL_to+".binaryproto")
 
